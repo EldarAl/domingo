@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.main_bg {
+  height: 1000px;
+  background: url(caffenonno/pics/alt-cekirdek.png);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#mar-log {
+  width: 300px;
+}
+#life-logo {
+  width: 400px;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.navbar a img {
+  width: 200px;
+}
+
+.center-logo {
+  position: relative;
+  bottom: 100px;
+  width: 900px;
+  height: 800px;
+}
+.coffee1 {
+  display: flex;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.coffee-info {
+  background-color: #905421;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 3px dotted #000;
+}
+.coffee-pic {
+  margin-top: 20px;
+  width: 800px;
+  height: 600px;
+}
+.coffee-info h1 {
+  position: absolute;
+  width: max-content;
+  font-size: 60px;
+  color: #e37617;
+  margin: auto;
+}
+.coffee-info p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maribell-logo {
+  margin: auto;
+  width: max-content;
+}
+#logo {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+#firstcoffee {
+  background-color: rgb(183, 78, 78);
+}
+#secondcoffee {
+  background-color: rgb(15, 161, 194);
+  border-bottom: none;
+  margin-bottom: 50px;
+}
+.maribell-head {
+  width: max-content;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.maribell-section {
+  margin-bottom: 100px;
+}
+.maribell-logo {
+  width: 250px;
+}
+.maribell-main {
+  display: block;
+  margin: auto;
+  width: 1300px;
+  height: 400px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+.catalog {
+  width: 1500px;
+  margin: auto;
+}
+.syrups {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.bottle {
+  width: 285px;
+  height: 700px;
+  box-shadow: 0 0 50px 0 rgb(51 51 51 / 10%);
+  border-radius: 20px;
+}
+.bottle img {
+  border-radius: 20px;
+}
+.bottle:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+#syrups-bottle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+#syrups-bottle2 {
+  display: flex;
+  justify-content: space-around;
+}
+.bottle-pic {
+  width: 100%;
+  height: 368px;
+}
+.bottle-text span {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  height: max-content;
+}
+.bottle-text {
+  padding: 15px;
+  color: #666666;
+  line-height: 24px;
+  font-size: larger;
+}
+
+.main1883 {
+  background-image: url(1883/mainbg/maison-routin_1883-large.jpg);
+  height: 800px;
+  margin-bottom: 100px;
+}
+.maison {
+  width: 400px;
+}
+#maison {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+#maison h1 {
+  height: max-content;
+  width: max-content;
+  font-size: 70px;
+  color: white;
+  font-weight: 100;
+}
+.head-1883 {
+  width: max-content;
+  position: relative;
+  left: 300px;
+}
+.maison-text p {
+  width: max-content;
+  font-size: 20px;
+  font-style: italic;
+}
+.maison-syrups {
+  width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.maison-text h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: max-content;
+}
+.maison-text {
+  width: 400px;
+  margin-bottom: 50px;
+}
+.bottles-1883 {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maison-bottles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.bottles-1883 p {
+  font-weight: 600;
+}
+.section-1883 {
+  background-color: pink;
+}
+.section-caffenonno {
+  height: 800px;
+  background-image: url(caffenonno/mainbg/slider1.png);
+}
+.header-nonno {
+  width: max-content;
+  position: relative;
+  left: 200px;
+  top: 50px;
+}
+.aboutusnonno {
+  height: 700px;
+  background-image: url(caffenonno/pics/alt-background.png);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px;
+  align-items: center;
+}
+.text-nonno {
+  height: max-content;
+  width: 600px;
+}
+.text-nonno p {
+  font-size: 27px;
+  font-weight: 300;
+  color: #000;
+  line-height: 29px;
+}
+.text-nonno h1 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.coffee-bean {
+  position: relative;
+  left: 1250px;
+  bottom: 200px;
+}
+.video {
+  height: 300px;
+  display: flex;
+  gap: 30px;
+}
+.catalog-nonno {
+  height: 1035px;
+  background-image: url(caffenonno/pics/orta-gorsel.png);
+  position: relative;
+  bottom: 100px;
+}
+.catalog-nonno h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+  border-bottom: solid 1px #fff;
+  position: relative;
+  top: 200px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.coffee {
+  height: 500px;
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.coffee-bottles {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coffee-bottles p {
+  color: white;
+  font-size: 28px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.nonno-syrup {
+  height: 700px;
+  background-image: url(caffenonno/pics/alt-cekirdek.png);
+}
+#puree {
+  position: relative;
+  top: 35px;
+}
+
+.life-service {
+  background-color: rgb(25, 220, 223);
+  height: 700px;
+}
+.service-logo {
+  width: 500px;
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+.service-intro {
+  position: relative;
+  top: 30px;
+  z-index: 4;
+  display: flex;
+  width: max-content;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  bottom: 100px;
+  gap: 300px;
+}
+#machine {
+  width: 600px;
+}
+
+.service-intro h1 {
+  font-size: 80px;
+}
+#line {
+  position: relative;
+  bottom: 107px;
+  width: 100%;
+}
+
+.service-work {
+  height: 900px;
+  background-color: black;
+}
+.service-work h1 {
+  color: #28dcb2;
+  display: block;
+  margin: auto;
+  width: max-content;
+  font-size: 40px;
+}
+.service-work p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #8e969a;
+  width: 500px;
+  margin: auto;
+}
+.service-text {
+  position: relative;
+  top: 100px;
+  margin-bottom: 200px;
+}
+.machine-pics {
+  width: 1500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.machine-pics img {
+  width: 300px;
+  border-radius: 20px;
+}
+.machines p {
+  width: max-content;
+  display: block;
+  margin-top: 20px;
+}
+
+.service-list {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px;
+  padding-top: 100px;
+  background-color: rgb(247, 240, 240);
+}
+.service-list ul li {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 140%;
+  color: #020203;
+}
+.footer {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.footer img {
+  width: 200px;
+}
+.footer p {
+  color: white;
+  height: max-content;
+  width: max-content;
+}
+
+.footer div {
+  position: relative;
+  width: max-content;
+  left: 100px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-text {
+  font-size: 20px;
+}
+.footer-contacts {
+  color: white;
+  font-size: 25px;
+}
